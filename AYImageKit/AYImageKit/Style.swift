@@ -14,7 +14,7 @@ import UIKit
  - Implement background color
  - Implement Border Color
  */
-struct Style {
+public struct Style {
     
     var font: UIFont
     var background: UIColor

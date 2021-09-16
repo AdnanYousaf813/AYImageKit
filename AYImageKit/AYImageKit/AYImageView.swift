@@ -8,14 +8,14 @@
 import UIKit
 
 /** Implement this class to download and show image or Initials of name */
-class AYImageView: UIView {
+public class AYImageView: UIView {
     
-    enum ImageViewDownloadResult {
+    public enum ImageViewDownloadResult {
         case success(UIImage)
         case error(Error)
     }
 
-    typealias ImageViewDownloadImageHandler = (ImageViewDownloadResult) -> ()
+    public typealias ImageViewDownloadImageHandler = (ImageViewDownloadResult) -> ()
     
     private var imageView: UIImageView!
     private var initialsLabel: UILabel!
@@ -23,37 +23,37 @@ class AYImageView: UIView {
     private var activityIndicator: UIActivityIndicatorView?
     
     /** Initials are get from this text by a function: showInitialsName */
-    var text: String?
+    public var text: String?
     
     /** if `true` ImageDownloader class will cache image in Disk. Default is `true`  */
-    var cacheInDisk = true
+    public var cacheInDisk = true
     
     /** if `true` ImageDownloader class will cache image in Memory. Default is `false`  */
-    var cacheInMemory = false
+    public var cacheInMemory = false
     
     /** if `true` AYImageView will be in circular shape. Default is `true`  */
-    var isCircular = false
+    public var isCircular = false
     
     /** if `true` AYImageView will be interactive and can open ImageViewer. Default is `true`  */
-    var isAllowToOpenImage = true
+    public var isAllowToOpenImage = true
     
     /** if `true` ImageViewerViewController will show a button to share image. Default is `true`  */
-    var isSharingEnabled = true
+    public var isSharingEnabled = true
     
     /** if `true` AYImageViewer will show activity indicator during downloading image. Default is `true`  */
-    var isShowActivityIndicator = true
+    public var isShowActivityIndicator = true
     
     /** set Image content mode of imageView. Default is `scaleAspectFit` */
-    var imageContentMode: UIImageView.ContentMode = .scaleAspectFit
+    public var imageContentMode: UIImageView.ContentMode = .scaleAspectFit
     
     /** set ViewController from which ImageViewerViewController will Present */
-    var currentViewController: UIViewController?
+    public var currentViewController: UIViewController?
     
     /** if set will show a placeholderImage when image from URL not found. */
-    var placeHolderImage: UIImage?
+    public var placeHolderImage: UIImage?
     
     /** if `true` ImageDownloader will download image whether image is present in cache or not. Default is  `false` */
-    var isforceRemoteFetchingEnabled: Bool = false
+    public var isforceRemoteFetchingEnabled: Bool = false
     
     
     public override init(frame: CGRect) {
@@ -191,8 +191,8 @@ class AYImageView: UIView {
         }
     }
     
-    /// update with new style
-    public func update(with style: Style) {
+    /// update with new style fo
+    public func updateStyle(with style: Style) {
         self.style = style
         refresh()
     }
@@ -230,8 +230,8 @@ extension AYImageView {
         return label
     }
     
-    /// set initials if image is not present
-    func showInitialsName(_ text: String?) {
+    /** set initials if image is not present */
+    public func showInitialsName(_ text: String?) {
         if let initials = text, !initials.isEmpty {
             initialsLabel.isHidden = false
             initialsLabel.text = nameInitials(text: initials)

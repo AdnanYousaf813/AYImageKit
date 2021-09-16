@@ -46,7 +46,6 @@ public class AYImageViewerViewController: UIViewController {
         setupImageView()
         setupScrollView()
         updateShareButton()
-        
     }
     
     private func setupImageView() {
@@ -161,7 +160,8 @@ public class AYImageViewerViewController: UIViewController {
 extension AYImageViewerViewController {
     
     public convenience init(image: UIImage, sourceImageView: UIImageView, isSharingEnabled: Bool) {
-        self.init(nibName: "ImageViewerViewController", bundle: nil)
+        let podBundle = Bundle(for: AYImageViewerViewController.self)
+        self.init(nibName: "AYImageViewerViewController", bundle: podBundle)
         self.image = image
         self.isSharingEnabled = isSharingEnabled
         self.sourceImageView = sourceImageView
