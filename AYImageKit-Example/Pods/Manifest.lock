@@ -1,0 +1,16 @@
+PODS:
+  - AYImageKit (1.0)
+
+DEPENDENCIES:
+  - AYImageKit (from `../AYImageKit`)
+
+EXTERNAL SOURCES:
+  AYImageKit:
+    :path: "../AYImageKit"
+
+SPEC CHECKSUMS:
+  AYImageKit: 78d71676683dba71ec1036def879aa0d36a67915
+
+PODFILE CHECKSUM: 157c9daa02ad4b424a2df253b64a8b72be3cfdf2
+
+COCOAPODS: 1.10.2

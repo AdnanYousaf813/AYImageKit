@@ -1,0 +1,6 @@
+framework module AYImageKit {
+  umbrella header "AYImageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
