@@ -10,6 +10,8 @@ AYImageKit is a swift library for aysnc downloading image and show on click.
 ![alt text](https://github.com/AdnanYousaf813/AYImageKit/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-09-20%20at%2012.36.14.png)
 ![alt text](https://github.com/AdnanYousaf813/AYImageKit/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-09-20%20at%2012.37.04.png)
 ![alt text](https://github.com/AdnanYousaf813/AYImageKit/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-09-20%20at%2012.36.17.png)
+![alt text](https://github.com/AdnanYousaf813/AYImageKit/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-09-20%20at%2017.37.58.png)
+
 
 ## Installation
 AYImageKit is only available via CocoaPods: 
