@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         imageView.placeHolderImage = nil
         imageView.text = "Adnan Yousaf"
         imageView.updateStyle(with: Style(font: UIFont.systemFont(ofSize: 34), textColor: UIColor.white, background: UIColor.black, borderColor: UIColor.black))
-        imageView.setImageFromUrl(url: "https://file-examples-com.github.io/uploads/2017/10/file_example_JPG_100kB")
+        imageView.setImageFromUrl(url: "https://file-examples-com.github.io/uploads/2017/10/file_example_JPG_100kB.jpg")
         
     }
     
