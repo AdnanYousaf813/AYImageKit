@@ -19,6 +19,7 @@ AYImageKit is a Swift Library for Aysnc Image Downloading, Show Name's Initials 
 
 # ScreenShot
 ![alt text](https://github.com/AdnanYousaf813/AYImageKit/blob/main/Sep-20-2021%2018-03-28.gif)
+![alt text](https://github.com/AdnanYousaf813/AYImageKit/blob/main/Sep-20-2021%2018-10-15.gif)
 
 
 ## Installation
@@ -28,9 +29,6 @@ pod 'AYImageKit'
 ```
 
 ## Usage
-
-* To reset timer on touch event, override sendEvent function.
-* To get notify on touch event create protocol.
 
 ```swift
 import AYImageKit
