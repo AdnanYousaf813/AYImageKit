@@ -77,7 +77,22 @@ imageView.setImageFromUrl(url: "your url link here")
        
 ```
 
-4. If you want to set Image directly.
+4. If you want to get image then use completion handler.
+
+```swift
+
+imageView.setImageFromUrl(url: "your url link here") { result in
+            switch result {
+            case .success(let image):
+                self.imageView.setImage(image)
+            case .error(let error):
+                print(error.localizedDescription)
+            }
+        }
+       
+```
+
+5. If you want to set Image directly.
 
 ```swift
 
@@ -86,7 +101,7 @@ imageView.setImage(UIImage(named: ""))
        
 ```
 
-5. If you want to set name's initials only.
+6. If you want to set name's initials only.
 
 ```swift
 
@@ -94,7 +109,7 @@ imageView.showInitialsName("Adnan Yousaf")
        
 ```
 
-6. Cache Properties
+7. Cache Properties
 
 ```swift
 
@@ -103,7 +118,7 @@ imageView.cacheInMemory = false
        
 ```
 
-7. Styling
+8. Styling
 
 ```swift
 
@@ -114,7 +129,7 @@ imageView.updateStyle(with: Style(font: UIFont.systemFont(ofSize: 34),
        
 ```
 
-8. Further Customization
+9. Further Customization
 
 ```swift
 
