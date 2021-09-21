@@ -4,17 +4,17 @@ AYImageKit is a Swift Library for Aysnc Image Downloading, Show Name's Initials 
 
 # Features
 
-* Aysnc Image Downloading.
-* Can Show Text Initials.
-* Can have Custom Styles.
-* Can Preview Image In Separate Screen with Animation.
-* Can Show ActivityIndicator while image loading.
-* Can Add Placeholder Image.
-* Can Cache Image In Memory.
-* Can Cache Image In Disk.
-* Can Make Round Image.
-* Image Sharing Option.
-* Work Well in Table View and Collection View cell.
+- [x] Aysnc Image Downloading.
+- [x] Can Show Text Initials.
+- [x] Can have Custom Styles.
+- [x] Can Preview Image In Separate Screen with Animation.
+- [x] Can Show ActivityIndicator while image loading.
+- [x] Can Add Placeholder Image.
+- [x] Can Cache Image In Memory.
+- [x] Can Cache Image In Disk.
+- [x] Can Make Round Image.
+- [x] Image Sharing Option.
+- [x] Work Well in Table View and Collection View cell.
 
 
 # ScreenShot
@@ -114,7 +114,7 @@ imageView.updateStyle(with: Style(font: UIFont.systemFont(ofSize: 34),
        
 ```
 
-8. Other Properties
+8. Further Customization
 
 ```swift
 
@@ -142,7 +142,10 @@ imageView.isforceRemoteFetchingEnabled = false
 For more Detail See Example project.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+- If you want to contribute, submit a pull request.
+- If you found a bug, have suggestions or need help, please, open an issue.
+- If you need help, write me: Adnanyousaf813@gmail.com
 
 ## License
 AYImageKit is released under the [MIT](https://choosealicense.com/licenses/mit/) license.
