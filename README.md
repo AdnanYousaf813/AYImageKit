@@ -1,6 +1,6 @@
 # AYImageKit
 
-AYImageKit is a Swift Library for Aysnc Image Downloading, Show Name's Initials and Can View image in Separate Screen.
+AYImageKit is a Swift Library for Async Image Downloading, Show Name's Initials and Can View image in Separate Screen.
 
 # Features
 
