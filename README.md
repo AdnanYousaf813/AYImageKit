@@ -67,7 +67,7 @@ imageView.setImageFromUrl(url: "your url link here")
        
 ```
 
-3. If you want to placeholder Image in case of url broken or image is not available then.
+3. If you want to show placeholder Image in case of url broken or image is not available then.
 
 ```swift
 
